@@ -20,4 +20,28 @@
  * and
  * concat
  */
+/*const applyDiscount = (price, disc) => price * disc
+alert(`your discounted price is ${applyDiscount(disc, price)}`)*/
+
+const isTrue = (T) => T === true
+
+const isFalse = (F) => F === false
+
+const not = (opposite) => !opposite
+
+const addOne = (plusOne) => ++ plusOne
+
+const isEven = (even) => even % 2 === 0
+
+const isIdentical = (same1, same2) => same1 === same2
+
+const isEqual = (equal1, equal2) => equal1 == equal2
+
+const or = (this1, that1) => this1 || that1
+
+const and = (and1, and2) => and1 && and2
+
+const concat = (concat1, concat2) => String(concat1) + String(concat2)
+
+
 
