@@ -27,7 +27,7 @@ const isTrue = (T) => T === true
 
 const isFalse = (F) => F === false
 
-const not = (opposite) => !opposite
+const not = (notThis) => !notThis
 
 const addOne = (plusOne) => ++ plusOne
 
@@ -42,6 +42,8 @@ const or = (this1, that1) => this1 || that1
 const and = (and1, and2) => and1 && and2
 
 const concat = (concat1, concat2) => String(concat1) + String(concat2)
-
+//or
+const concat = (concat1, concat2) => "" + concat1 + concat2
+//the "" cause the function to consider the result as a string being added
 
 
